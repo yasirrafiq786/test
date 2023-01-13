@@ -21,10 +21,10 @@ const PasswordStrength = ({ value }) => {
     isLength8OrMore,
   ];
 
-  conditions.forEach((e) => console.log(e));
+  
 
   const trueConditions = conditions.filter(Boolean);
-  console.log(trueConditions.length);
+ 
   const checkStrength = () => {
     const length = trueConditions.length;
     if (length === 5) {
